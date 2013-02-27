@@ -26,4 +26,6 @@ class AssetCompressAppController extends AppController {
  */
 	public function shutdownProcess() { }
 
+	function beforeRender() {}
+
 }
